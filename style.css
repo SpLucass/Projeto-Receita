@@ -13,7 +13,7 @@
 body{
     
     background-image: 
-    linear-gradient(rgba(121, 74, 43, 0.5), rgba(113, 68, 38, 0.5)), url('assets/bg-image.jpg');
+    url('assets/bg-image.jpg');
     background-size: cover;
     background-position: center;
     background-color:#573824;
@@ -68,7 +68,7 @@ ul {
 }
 
 footer {
-    color: #F0E8C2;
+    color: #291B1A;
     text-align: center;
     padding-bottom: 50px;
     font-size: 20px;

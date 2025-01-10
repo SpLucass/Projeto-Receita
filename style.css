@@ -3,6 +3,7 @@
     padding: 0;
 }
 
+
 :root{
     font-family: "Alice", serif;
     line-height: 150%;
@@ -10,8 +11,12 @@
 }
 
 body{
-    background-image: url(assets/bg-image.jpg);
+    
+    background-image: 
+    linear-gradient(rgba(121, 74, 43, 0.5), rgba(113, 68, 38, 0.5)), url('assets/bg-image.jpg');
     background-size: cover;
+    background-position: center;
+    background-color:#573824;
 }
 
 
@@ -60,4 +65,15 @@ h1, h2 {
 
 ul {
     padding-left: 20px;
+}
+
+footer {
+    color: #F0E8C2;
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 20px;
+}
+
+footer img {
+    vertical-align: middle;
 }

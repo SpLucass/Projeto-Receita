@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 :root{
     font-family: "Alice", serif;
     line-height: 150%;
@@ -24,13 +29,35 @@ img{
     border-radius: 16px;
 }
 
+main{
+    padding: 24px;
+}
+
+#about p + p {
+    margin-top: 12px;
+}
+
 h1 {
     line-height: 140%;
     font-size: 40px;
-    color: #291B1A;
+    margin-bottom: 4px;
+}
+
+#ingredients {  /*--Aqui caberia um section + section pois temos uma seção seguida de outra */
+    padding: 24px;
 }
 
 h2 {
     font-size: 24px;
+    line-height: 200%;
+}
+
+h1, h2 {
     color: #291B1A;
+    margin-bottom: 4px;
+
+}
+
+ul {
+    padding-left: 20px;
 }
